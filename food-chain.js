@@ -25,6 +25,6 @@ const eatsAnimals = true;
 let category;
 
 // your code goes here
-category = eatsAnimals ? (eatsPlants ? "carnivore" : "Omnivore" ) : "herbivore"
+category = eatsAnimals ? (eatsPlants ? "Omnivore" : "Carnivore" ) : eatsPlants ? "Herbivore" : undefined;
 
 console.log(category);
