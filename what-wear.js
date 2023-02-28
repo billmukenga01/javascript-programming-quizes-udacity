@@ -26,11 +26,11 @@ const shirtLength = 30;
 const shirtSleeve = 8.71;
 
 // your code goes here
-const small = (18 >= shirtWidth && shirtWidth < 20) && (28 >= shirtLength && shirtLength < 29) && (8.13 >= shirtSleeve && shirtSleeve< 8.38);
-const medium = (20 >= shirtWidth && shirtWidth < 22) && (29 >= shirtLength && shirtLength < 30) && (8.38 >= shirtSleeve && shirtSleeve < 8.63);
-const large = (22 >= shirtWidth && shirtWidth < 24) && (30 >= shirtLength && shirtLength < 31) && (8.63 >= shirtSleeve && shirtSleeve < 8.88);
-const xLarge = (24 >= shirtWidth && shirtWidth < 26) && (31 >= shirtLength && shirtLength < 32) && (8.88 >= shirtSleeve && shirtSleeve < 9.63);
-const xxLarge = (26 >= shirtWidth && shirtWidth < 28) && (33 >= shirtLength && shirtLength < 33) && (9.63 >= shirtSleeve && shirtSleeve < 10.13);
+const small = (18 === shirtWidth && shirtWidth < 20) && (28 === shirtLength && shirtLength < 29) && (8.13 === shirtSleeve && shirtSleeve< 8.38);
+const medium = (20 <= shirtWidth && shirtWidth < 22) && (29 <= shirtLength && shirtLength < 30) && (8.38 <= shirtSleeve && shirtSleeve < 8.63);
+const large = (22 <= shirtWidth && shirtWidth < 24) && (30 <= shirtLength && shirtLength < 31) && (8.63 <= shirtSleeve && shirtSleeve < 8.88);
+const xLarge = (24 <= shirtWidth && shirtWidth < 26) && (31 <= shirtLength && shirtLength < 32) && (8.88 <= shirtSleeve && shirtSleeve < 9.63);
+const xxLarge = (26 <= shirtWidth && shirtWidth < 28) && (33 <= shirtLength && shirtLength < 33) && (9.63 <= shirtSleeve && shirtSleeve < 10.13);
 const xxxLarge = (28 <= shirtWidth) && (34 <= shirtLength ) && (10.13 <= shirtSleeve);
 
 if(small){
