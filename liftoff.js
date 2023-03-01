@@ -26,7 +26,7 @@ while(x >= 0){
     }else if(x === 6){
         console.log('Main engine start');
     }else if(x === 0){
-        console.log('Solid rocket booster ignition and liftoff! (');
+        console.log('Solid rocket booster ignition and liftoff! ');
     }else {
         console.log(`T - ${x}`);
     }
