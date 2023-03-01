@@ -25,7 +25,10 @@ while (num >= 1) {
     if (num === 1){
         let valueOne = `${num}bottle of juice on the wall! ${num} bottle of juice! Take one down, pass it around...${num-1} bottles of juice on the wall!`;
         console.log(valueOne);
-    }else if (num === 2){}
+    }else if (num === 2){
+        let valueThree = `${num}bottles of juice on the wall! ${num} bottles of juice! Take one down, pass it around...${num-1} bottle of juice on the wall!`;
+        console.log(valueThree);
+    }
     else{
         let valueTwo = `${num}bottles of juice on the wall! ${num} bottles of juice! Take one down, pass it around...${num-1} bottles of juice on the wall!`
         console.log(valueTwo);
