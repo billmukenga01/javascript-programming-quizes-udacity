@@ -20,18 +20,17 @@
 
 let num = 99;
 
-while (num >= 0) {
+while (num >= 1) {
     // check value of num
     if (num === 1){
-        let valueOne = `${num} bottle of juice on the wall! ${num} bottle of juice! Take one down, pass it around...${num-1} bottles of juice on the wall!`;
+        let valueOne = `${num}bottle of juice on the wall! ${num} bottle of juice! Take one down, pass it around...${num-1} bottles of juice on the wall!`;
         console.log(valueOne);
-    }else if(num === 0){
-        console.log(`${num} bottles of juice on the wall!`);
-    }
+    }else if (num === 2){}
     else{
-        console.log(`${num} bottles of juice on the wall! ${num} bottles of juice! Take one down, pass it around...`);
+        let valueTwo = `${num}bottles of juice on the wall! ${num} bottles of juice! Take one down, pass it around...${num-1} bottles of juice on the wall!`
+        console.log(valueTwo);
     }
     // print lyrics using num
     // don't forget to check pluralization on the last line!
     num --;
-}
+};
