@@ -22,6 +22,8 @@ while (x <= 20) {
     
     }else if(x % 3 === 0 && x % 5 ===0){
         console.log("JuliaJames");
+    }else{
+    	console.log(x);
     }
     // print Julia, James, or JuliaJames
     x++;
