@@ -13,8 +13,8 @@ function laugh(num){
     let result = '';
     for(num; num > 0; num--){
         result += 'ha';
-    }
-
+    };
+    return result;
 
 };
 
