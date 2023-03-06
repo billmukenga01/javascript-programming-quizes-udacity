@@ -11,7 +11,13 @@
  */
 
 // your code goes here
-const laugh = /* finish the function expression */
+const laugh = function(num){
+    let result = "";
+    for(i = 0; i < num; i++){
+        console.log(result + "ha" + "!");
+    };
+  return result;
+};
 
 
 // testing your code
