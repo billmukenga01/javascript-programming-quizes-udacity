@@ -21,8 +21,10 @@ let laugh =  num => {
     let result = "";
 
     for(i = 0; i < num ; i++){
-        return (result + "ha");
+        result = result + "ha";
     };
+
+    return (result + "!");
 };
 
 emotions("happy", laugh);
