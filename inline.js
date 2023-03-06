@@ -19,10 +19,13 @@ function emotions(myString, myFunc) {
 
 let laugh =  num => {
     let result = "";
+
     for(i = 0; i < num ; i++){
         return (result + "ha");
     };
 };
+
+emotions("happy", laugh);
 // your code goes here
 // Call the emotions() function with two arguments
 // Argument 1 - "happy" string
