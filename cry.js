@@ -12,6 +12,9 @@
 
 
 // your code goes here
+const cry = function cryBaby(){
+    return "boohoo!";
+};
 
 
 // test your solution
