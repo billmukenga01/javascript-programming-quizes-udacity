@@ -17,3 +17,6 @@ const mercenary = "Jayne";
 const mechanic = "Kaylee";
 
 // your code goes here
+
+const crew = ["Mal", "Zoe", "Wash", "Inara", "Jayne", "Kaylee"];
+console.log(crew);
