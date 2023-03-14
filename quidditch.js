@@ -23,3 +23,10 @@ console.log(hasEnoughPlayers(team2)); // should be false
 console.log(hasEnoughPlayers(team3)); // should be false
 console.log(hasEnoughPlayers(team4)); // should be true
 
+function hasEnoughPlayers(players){
+    if(players.length >= 7){
+        return true;
+    }else{
+        return false;
+    };
+};
