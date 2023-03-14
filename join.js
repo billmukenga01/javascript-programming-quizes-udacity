@@ -25,3 +25,4 @@ const shepherd = "Book";
 
 // your code goes here
 
+crew.push(doctor, sister, shepherd);
