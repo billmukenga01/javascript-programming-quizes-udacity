@@ -11,3 +11,8 @@
 
 
 // your code goes here
+const udaciFamily = ["Julia",
+"James", 
+"Bill"];
+
+console.log(udaciFamily);
