@@ -22,7 +22,16 @@ const umbrella = {
       }
      },
     // your code goes here
-    
+    close: function(){
+        if (umbrella.isOpen === false){
+            return 'The umbrella is already closed';
+
+        }else{
+            umbrella.isOpen = false;
+            return 'Julia closes the umbrella'
+        }
+
+    }
   };
   
   
