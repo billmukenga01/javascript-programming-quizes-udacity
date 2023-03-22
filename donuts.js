@@ -19,4 +19,4 @@ const donuts = [
 ];
 
 // your code goes here
-donuts.forEach( donut =>  console.log(`${donuts.type} donuts cost $${donuts.cost} each`));
+donuts.forEach( donut =>  console.log(`${donut.type} donuts cost $${donut.cost} each`));
