@@ -14,3 +14,5 @@ const breakfast = {
     price : 20,
     ingredients :['flour','salt','sugar' ]
 }
+
+console.log(breakfast);
