@@ -13,7 +13,22 @@
 
 // your code goes here
 const facebookProfile = {
-    
+    name: 'Bill',
+    friends : 10,
+    messages :['message1', 'message2', 'message3', 'message4', 'message5', 'message6'],
+
+    postMessage: function(){
+        facebookProfile.messages.push('message9');
+    },
+    deleteMessage: function(index){
+        facebookProfile.messages.splice(index, 1);
+    },
+    addFriend: function(){
+        facebookProfile.friends += 1;
+    },
+    removeFriend: function(){
+        facebookProfile.friends -= 1;
+    }
 }
 
 
