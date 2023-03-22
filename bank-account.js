@@ -27,6 +27,10 @@ const savingsAccount = {
         }
     },
     // your code goes here
+    printAccountSummary: function(){
+        return `Your balance is currently $${savingsAccount.balance} and your intrest rate is ${savingsAccount.interestRatePercent}% `
+
+    }
 };
 
 console.log(savingsAccount.printAccountSummary());
