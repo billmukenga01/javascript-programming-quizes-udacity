@@ -9,3 +9,8 @@
  */
 
 // your code goes here
+const breakfast = {
+    name : 'Chapati',
+    price : 20,
+    ingredients :['flour','salt','sugar' ]
+}
