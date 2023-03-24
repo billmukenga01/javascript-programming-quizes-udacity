@@ -5,4 +5,12 @@ let lengthOfArray = [''];
 const array = Array.from(input.split('1'));
 
 
+array.forEach(element => {
+    if(element.length > lengthOfArray[0].length){
+        lengthOfArray.pop();
+        lengthOfArray.push(element);
+    }
 
+});
+
+console.log(lengthOfArray);
