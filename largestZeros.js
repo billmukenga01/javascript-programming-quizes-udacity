@@ -2,7 +2,7 @@ const input = '01001000010100101000101010001010101010100000101001010001010001010
 
 let lengthOfArray = [''];
 
-let array = Array.from(input.split('1'));
+const array = Array.from(input.split('1'));
 
 
 
