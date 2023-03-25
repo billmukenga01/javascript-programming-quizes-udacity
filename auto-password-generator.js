@@ -51,6 +51,5 @@ function shuffle(array) {
 
 
 
-console.log(upperCase);
-console.log(lowerCase);
-console.log(generatedString);
+
+console.log(shuffledPassword);
