@@ -5,8 +5,9 @@ const lowerCase = upperCase.map(input => input.toLowerCase());
 
 const specialCharacters = ['!', '@','#','$','&','(',')','%','*'];
 
-
+const randomNumber = Math.round(Math.random()*10) + 1;
 
 
 console.log(upperCase);
 console.log(lowerCase);
+console.log(randomNumber);
