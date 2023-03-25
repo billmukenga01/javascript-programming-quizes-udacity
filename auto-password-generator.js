@@ -16,11 +16,11 @@ const run = function(){
 
     if (generatedString.length < passwordLength){
     
-    for(i=passwordLength; i>0; i--){
-        generatedString.push(upperCase[Math.floor(Math.random()*26)])
-        generatedString.push(lowerCase[Math.floor(Math.random()*26)])
-        generatedString.push(specialCharacters[Math.floor(Math.random()*9)])     
-        generatedString.push(Math.floor(Math.random()*10))
+        for(i=passwordLength; i>0; i--){
+            generatedString.push(upperCase[Math.floor(Math.random()*26)])
+            generatedString.push(lowerCase[Math.floor(Math.random()*26)])
+            generatedString.push(specialCharacters[Math.floor(Math.random()*9)])     
+             generatedString.push(Math.floor(Math.random()*10))
     }
     
     }
@@ -32,18 +32,18 @@ const run = function(){
     const shuffledPassword = shuffle(generatedString); 
 
     function getRandomInt(n) {
-    return Math.floor(Math.random() * n);
+        return Math.floor(Math.random() * n);
     }
     function shuffle(array) {
-            // Convert String to array
-    let n = array.length ;              // Length of the array
+        
+        let n = array.length ;              // Length of the array
     
-    for(var i=0 ; i<n-1 ; ++i) {
-      let j = getRandomInt(n);       // Get random of [0, n-1]
+        for(var i=n-1 ; i > 0  ; --i) {
+        let j = getRandomInt(i + 1);       // Get random of [0, n-1]
       
-      let temp = array[i];             // Swap arr[i] and arr[j]
-      array[i] = array[j];
-      array[j] = temp;
+        let temp = array[i];             // Swap arr[i] and arr[j]
+        array[i] = array[j];
+        array[j] = temp;
     }
     
     password = array.join('');                // Convert Array to string
