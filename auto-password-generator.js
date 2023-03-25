@@ -3,6 +3,10 @@ const upperCase = ['A','B','C','D','E','F','G','H','I','J','K','L','M',
 
 const lowerCase = upperCase.map(input => input.toLowerCase());
 
+const specialCharacters = ['!', '@','#','$','&','(',')','%','*'];
+
+
+
 
 console.log(upperCase);
 console.log(lowerCase);
