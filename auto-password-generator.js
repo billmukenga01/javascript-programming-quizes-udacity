@@ -1,19 +1,20 @@
-const upperCase = ['A','B','C','D','E','F','G','H','I','J','K','L','M',
+const run = function(){
+    const upperCase = ['A','B','C','D','E','F','G','H','I','J','K','L','M',
                    'N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
 
-const lowerCase = upperCase.map(input => input.toLowerCase());
+    const lowerCase = upperCase.map(input => input.toLowerCase());
 
-const specialCharacters = ['!', '@','#','$','&','(',')','%','*'];
+    const specialCharacters = ['!', '@','#','$','&','(',')','%','*'];
 
-//const randomNumber = Math.round(Math.random()*10);
+    //const randomNumber = Math.round(Math.random()*10);
 
-const passwordLength = prompt('Input desired password length', 6);
+    const passwordLength = prompt('Input desired password length', 6);
 
-const generatedString = [];
+    const generatedString = [];
 
 
 
-if (generatedString.length < passwordLength){
+    if (generatedString.length < passwordLength){
     
     for(i=passwordLength; i>0; i--){
         generatedString.push(upperCase[Math.floor(Math.random()*26)])
@@ -22,18 +23,18 @@ if (generatedString.length < passwordLength){
         generatedString.push(Math.floor(Math.random()*10))
     }
     
-}
+    }
 
-if(generatedString.length > passwordLength){
-    generatedString.splice(-(generatedString.length - passwordLength), generatedString.length - passwordLength)
-}
+    if(generatedString.length > passwordLength){
+        generatedString.splice(-(generatedString.length - passwordLength), generatedString.length - passwordLength)
+    }
 
-const shuffledPassword = shuffle(generatedString); 
+    const shuffledPassword = shuffle(generatedString); 
 
-function getRandomInt(n) {
+    function getRandomInt(n) {
     return Math.floor(Math.random() * n);
-  }
-function shuffle(array) {
+    }
+    function shuffle(array) {
             // Convert String to array
     let n = array.length ;              // Length of the array
     
@@ -47,9 +48,12 @@ function shuffle(array) {
     
     password = array.join('');                // Convert Array to string
     return password;                        // Return shuffled string
+    }
+
+
+
+
+    console.log(shuffledPassword);
 }
 
-
-
-
-console.log(shuffledPassword);
+run();
