@@ -7,7 +7,7 @@ const specialCharacters = ['!', '@','#','$','&','(',')','%','*'];
 
 const randomNumber = Math.round(Math.random()*10);
 
-const passwordLength = prompt('Input desired password length');
+const passwordLength = prompt('Input desired password length', 6);
 
 
 console.log(upperCase);
