@@ -11,7 +11,7 @@ const passwordLength = prompt('Input desired password length', 6);
 
 const generatedString = [];
 
-const shuffledPassword = shuffle(generatedString);
+
 
 if (generatedString.length < passwordLength){
     
@@ -28,6 +28,7 @@ if(generatedString.length > passwordLength){
     generatedString.splice(-(generatedString.length - passwordLength), generatedString.length - passwordLength)
 }
 
+const shuffledPassword = shuffle(generatedString); 
 
 function getRandomInt(n) {
     return Math.floor(Math.random() * n);
@@ -50,4 +51,6 @@ function shuffle(array) {
 
 
 
-console.log(shuffledPassword);
+console.log(upperCase);
+console.log(lowerCase);
+console.log(generatedString);
