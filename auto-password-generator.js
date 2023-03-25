@@ -20,7 +20,7 @@ const run = function(){
             generatedString.push(upperCase[Math.floor(Math.random()*26)])
             generatedString.push(lowerCase[Math.floor(Math.random()*26)])
             generatedString.push(specialCharacters[Math.floor(Math.random()*9)])     
-             generatedString.push(Math.floor(Math.random()*10))
+            generatedString.push(Math.floor(Math.random()*10))
     }
     
     }
