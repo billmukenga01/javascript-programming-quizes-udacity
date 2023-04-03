@@ -8,6 +8,7 @@ body.appendChild(p);
 
 //h3 with some blue text in it
 const h3 = document.createElement('h3');
+const p1 = document.createElement('p');
 p1.textContent = ' I\'m a blue h3!';
 p1.style.cssText = 'color:blue';
 body.appendChild(p1);
