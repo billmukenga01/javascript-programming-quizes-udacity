@@ -21,3 +21,4 @@ p2.textContent = ' MEE TOO!';
 h1.textContent = ' I\'m in a div ';
 div.appendChild(h1);
 div.appendChild(p2);
+body.appendChild(div);
